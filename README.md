@@ -1,5 +1,5 @@
 # bencode
-A Python library to encode and decode `b-encode` codes. Is it me or did it just rhythm like a rap?
+A Python library to encode and decode `Bencode` codes. Is it me or did it just rhythm like a rap?
 
 ## How to use
 ### Importing
