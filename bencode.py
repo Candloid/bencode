@@ -88,8 +88,6 @@ def process_dict(content):
 
 def decode(code):
     try:
-        if code == "l9:led light7elderly12del montieeee":
-            pass
         if code.strip() == "":
             return ""
         result = code
@@ -161,7 +159,6 @@ def decode(code):
         for text_id in range(0, len(placeholder)):
             result = result.replace("TEXTPLACEHOLDER" + f"{text_id:04d}", placeholder[text_id])
 
-        result.replace("~", "d").replace("|", "l").replace("_", "i").replace("#", "e")
         return eval(result)
 
     except Exception:
